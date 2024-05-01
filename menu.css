@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.simple {
+    background-image: url(/img/hamburguesasimple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cheese {
+    background-image: url(/img/queso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.royal {
+    background-image: url(/img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.doble {
+    background-image: url(/img/hamburguesa-doble-carne-queso-cheddar-fundido_752237-20375.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        gap: 30px;
+    }
+}
