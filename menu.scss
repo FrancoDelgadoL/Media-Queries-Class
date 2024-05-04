@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 200px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 60%;
+    border-radius: 20px;
+}
+
+.simple {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;  
+}
+
+.cheese {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.royal {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.doble {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+button {
+    background-color: #2f82ff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.price{
+    font-size: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px;
+}
+
+@media (max-width: 767px) {
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+        gap: 30px;
+    }
+}
